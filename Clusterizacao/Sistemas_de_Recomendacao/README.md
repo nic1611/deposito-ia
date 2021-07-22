@@ -248,20 +248,7 @@ users
 
 
 
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -341,7 +328,7 @@ users
   </tbody>
 </table>
 <p>278858 rows × 3 columns</p>
-</div>
+
 
 
 
@@ -395,20 +382,7 @@ books
 
 
 
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -512,7 +486,7 @@ books
   </tbody>
 </table>
 <p>271360 rows × 5 columns</p>
-</div>
+
 
 
 
@@ -613,20 +587,7 @@ ratings
 
 
 
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -706,7 +667,7 @@ ratings
   </tbody>
 </table>
 <p>526356 rows × 3 columns</p>
-</div>
+
 
 
 
@@ -720,20 +681,7 @@ rating_with_books.head()
 
 
 
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -800,7 +748,7 @@ rating_with_books.head()
     </tr>
   </tbody>
 </table>
-</div>
+
 
 
 
@@ -819,20 +767,7 @@ number_rating
 
 
 
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -900,7 +835,7 @@ number_rating
   </tbody>
 </table>
 <p>160269 rows × 2 columns</p>
-</div>
+
 
 
 
@@ -915,20 +850,7 @@ number_rating
 
 
 
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -996,7 +918,7 @@ number_rating
   </tbody>
 </table>
 <p>160269 rows × 2 columns</p>
-</div>
+
 
 
 
@@ -1010,20 +932,7 @@ final_rating
 
 
 
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -1163,7 +1072,7 @@ final_rating
   </tbody>
 </table>
 <p>487671 rows × 8 columns</p>
-</div>
+
 
 
 
@@ -1206,20 +1115,7 @@ final_rating
 
 
 
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -1359,7 +1255,7 @@ final_rating
   </tbody>
 </table>
 <p>59850 rows × 8 columns</p>
-</div>
+
 
 
 
@@ -1403,20 +1299,7 @@ book_pivot
 
 
 
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -1736,7 +1619,7 @@ book_pivot
   </tbody>
 </table>
 <p>742 rows × 888 columns</p>
-</div>
+
 
 
 
@@ -1765,20 +1648,7 @@ book_pivot
 
 
 
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -2098,7 +1968,7 @@ book_pivot
   </tbody>
 </table>
 <p>742 rows × 888 columns</p>
-</div>
+
 
 
 
@@ -2151,20 +2021,7 @@ book_pivot.head()
 
 
 
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -2340,7 +2197,7 @@ book_pivot.head()
   </tbody>
 </table>
 <p>5 rows × 888 columns</p>
-</div>
+
 
 
 
@@ -2369,20 +2226,7 @@ book_pivot.head(236)
 
 
 
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -2702,7 +2546,7 @@ book_pivot.head(236)
   </tbody>
 </table>
 <p>236 rows × 888 columns</p>
-</div>
+
 
 
 
@@ -2733,20 +2577,7 @@ book_pivot.head(238)
 
 
 
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -3066,7 +2897,7 @@ book_pivot.head(238)
   </tbody>
 </table>
 <p>238 rows × 888 columns</p>
-</div>
+
 
 
 
