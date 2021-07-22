@@ -27,5 +27,5 @@ instalação dos pacotes contidos no arquivo requirements.txt
 3. Execute o comando abaixo
 
 ```
-pip install -r requirements.txt.
+pip install -r requirements.txt
 ```

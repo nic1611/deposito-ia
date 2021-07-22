@@ -77,17 +77,6 @@ https://www.kaggle.com/rxsraghavagrawal/book-recommender-system
 books = pd.read_csv("BX-Books.csv", sep=';', encoding="latin-1", error_bad_lines= False)
 
 ```
-
-    C:\Users\Nicolas\miniconda3\envs\datascience\lib\site-packages\IPython\core\interactiveshell.py:3441: FutureWarning: The error_bad_lines argument has been deprecated and will be removed in a future version.
-    
-    
-      exec(code_obj, self.user_global_ns, self.user_ns)
-    b'Skipping line 6452: expected 8 fields, saw 9\nSkipping line 43667: expected 8 fields, saw 10\nSkipping line 51751: expected 8 fields, saw 9\n'
-    b'Skipping line 92038: expected 8 fields, saw 9\nSkipping line 104319: expected 8 fields, saw 9\nSkipping line 121768: expected 8 fields, saw 9\n'
-    b'Skipping line 144058: expected 8 fields, saw 9\nSkipping line 150789: expected 8 fields, saw 9\nSkipping line 157128: expected 8 fields, saw 9\nSkipping line 180189: expected 8 fields, saw 9\nSkipping line 185738: expected 8 fields, saw 9\n'
-    b'Skipping line 209388: expected 8 fields, saw 9\nSkipping line 220626: expected 8 fields, saw 9\nSkipping line 227933: expected 8 fields, saw 11\nSkipping line 228957: expected 8 fields, saw 10\nSkipping line 245933: expected 8 fields, saw 9\nSkipping line 251296: expected 8 fields, saw 9\nSkipping line 259941: expected 8 fields, saw 9\nSkipping line 261529: expected 8 fields, saw 9\n'
-    C:\Users\Nicolas\miniconda3\envs\datascience\lib\site-packages\IPython\core\interactiveshell.py:3441: DtypeWarning: Columns (3) have mixed types.Specify dtype option on import or set low_memory=False.
-      exec(code_obj, self.user_global_ns, self.user_ns)
     
 
 
@@ -263,11 +252,6 @@ books
 users = pd.read_csv("BX-Users.csv", sep=';', encoding="latin-1", error_bad_lines= False)
 
 ```
-
-    C:\Users\Nicolas\miniconda3\envs\datascience\lib\site-packages\IPython\core\interactiveshell.py:3441: FutureWarning: The error_bad_lines argument has been deprecated and will be removed in a future version.
-    
-    
-      exec(code_obj, self.user_global_ns, self.user_ns)
     
 
 
@@ -382,11 +366,6 @@ users
 # Importação dos Dados Referentes aos Ratings dados aos Livros (Avaliação do Usuário em relação ao Livro)
 ratings = pd.read_csv("BX-Book-Ratings.csv", sep=';', encoding="latin-1", error_bad_lines= False)
 ```
-
-    C:\Users\Nicolas\miniconda3\envs\datascience\lib\site-packages\IPython\core\interactiveshell.py:3441: FutureWarning: The error_bad_lines argument has been deprecated and will be removed in a future version.
-    
-    
-      exec(code_obj, self.user_global_ns, self.user_ns)
     
 
 
@@ -420,12 +399,6 @@ books.rename(columns = {'Book-Title':'title', 'Book-Author':'author', 'Year-Of-P
 users.rename(columns = {'User-ID':'user_id', 'Location':'location', 'Age':'age'}, inplace=True)
 ratings.rename(columns = {'User-ID':'user_id', 'Book-Rating':'rating'}, inplace=True)
 ```
-
-    C:\Users\Nicolas\miniconda3\envs\datascience\lib\site-packages\pandas\core\frame.py:5034: SettingWithCopyWarning: 
-    A value is trying to be set on a copy of a slice from a DataFrame
-    
-    See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
-      return super().rename(
     
 
 
@@ -1230,12 +1203,6 @@ final_rating.shape
 final_rating.drop_duplicates(['user_id','title'], inplace=True)
 final_rating.shape
 ```
-
-    C:\Users\Nicolas\miniconda3\envs\datascience\lib\site-packages\pandas\util\_decorators.py:311: SettingWithCopyWarning: 
-    A value is trying to be set on a copy of a slice from a DataFrame
-    
-    See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
-      return func(*args, **kwargs)
     
 
 
@@ -2179,11 +2146,6 @@ from sklearn.neighbors import NearestNeighbors
 model = NearestNeighbors(algorithm='brute')
 model.fit(book_sparse)
 ```
-
-
-
-
-    NearestNeighbors(algorithm='brute')
 
 
 
