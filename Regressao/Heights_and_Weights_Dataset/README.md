@@ -417,13 +417,9 @@ print(myvals)
 
 
 ```python
-# 94 -> 94 Kg (Weight)
-# 182 -> 182 cm (Height) 
 
 print(model.predict(myvals)) 
 
-# The more close to 0, the more is a Male
-# The more close to 1, the more is a Female
 ```
 
     [[72.73333562]]
