@@ -1,13 +1,3 @@
----
-date: "2021-10-23"
-description: "Pipeline de pré-processamento de dados para realizar a classificação da base de dados breast_cancer"
-featured_image: https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8ZGF0YSUyMGFuYWx5c2lzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60
-tags:
-- machine learning
-- python
-title: 'classificação com KNN da base de dados breast_cancer'
----
-
 # 0 - Carregando bibliotecas
 
 Nessa etapa, costuma-se dedicar a importação das bibliotecas que serão utilizadas no desenvolvimento do algoritmo de predição
