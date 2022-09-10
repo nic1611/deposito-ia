@@ -11,7 +11,7 @@ Este é um Aplicativo utilizado para exibir a solução de Ciência de Dados par
 
 ## 📷 Imagens do projeto
 
-![Alt text](/painel.png?raw=true "Painel")
+![Alt text](painel.png?raw=true "Painel")
 
 # Instalação
 Para executar os algoritmos dese repositório recomenda-se a 
